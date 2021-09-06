@@ -26,6 +26,7 @@ const CreateTask = ({ addTask }) => {
           size="small"
           defaultValue=""
           onChange={(e) => setTaskName(e.target.value)}
+          value={taskName}
         />
         <Button variant="contained" color="primary" type="submit">
           Add
